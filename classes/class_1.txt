@@ -1,0 +1,21 @@
+class Meal 
+
+    Attributes: 
+
+    price (integer)
+    cookingTime (datetime)
+    ingredients (string)
+    nutritionValue (hash)
+    isReady (boolean)
+    isServed (boolean)
+
+
+    Methods :
+    
+     serve_Meal(toggle isServed )
+     cook_meal(toggle boolean)
+     calculateCalories(calculate calories from nutritionValue)
+     addToppings(change the price attributes)
+
+
+
