@@ -1,0 +1,13 @@
+Object: newYorkBranch
+
+    Attributes: 
+    menuItemsCount: 24
+    menuCategories: ["Italian","Chinese","Middle Eastern","Mexican"]
+    staffCount: 10
+    revenuePerDay: 1285.75
+
+    Methods: 
+    addItem: menuItemsCount+1 
+    takeAttendance: (prints staffCount)
+    calculateTax: revenuePerDay*15
+    addCategory: menuCategories<< "Asian"

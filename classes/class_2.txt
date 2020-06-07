@@ -1,0 +1,14 @@
+class Branch 
+
+    Attributes: 
+
+    menuItemsCount: (integer) 
+    menuCategories: (array)
+    staffCount: (integer)
+    revenuePerDay: (float)
+
+    Methods: 
+    addItem: (add item in menuItems)
+    takeAttendance: (count staffCount)
+    calculateTax: (revenuePerDay= revenuePerDay*Tax)
+    addCategory: (add Category in menuCategories)
