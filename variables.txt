@@ -1,0 +1,10 @@
+food = "pizza"
+is_delicious = true
+food = "burrito"
+num2 = 24
+num7 = 13
+quotient = num7/num2 
+songs = ["Unstoppable ft. Sia", "Till I Collapse ft. Eminem", "Establishments ft Drake"]
+songs.shift 
+puts songs 
+puts food.length
