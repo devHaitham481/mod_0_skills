@@ -1,0 +1,15 @@
+Object: Pizza 
+
+Attributes: 
+price: 12
+cookingTime: Time.now
+ingredients: ["Flour", "Cheese", "Tomato Sauce", "Mozzarilla"]
+nutritionalValue: {"energy"=> "23", "calories" => 2550, "protein"=> "25g"}
+isReady: false
+isServed: false
+
+Methods 
+serveMeal: isServed=true
+cookMeal: isReady = true 
+calculateCalories: nutritionalValue["calories"] = 2550
+addToppings: price=+5 price = 17

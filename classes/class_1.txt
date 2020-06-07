@@ -3,8 +3,8 @@ class Meal
     Attributes: 
 
     price (integer)
-    cookingTime (datetime)
-    ingredients (string)
+    cookingTime (time.now)
+    ingredients (array)
     nutritionValue (hash)
     isReady (boolean)
     isServed (boolean)
@@ -12,10 +12,12 @@ class Meal
 
     Methods :
     
-     serve_Meal(toggle isServed )
-     cook_meal(toggle boolean)
+     serveMeal(toggle isServed )
+     cookMeal(toggle boolean)
      calculateCalories(calculate calories from nutritionValue)
      addToppings(change the price attributes)
+
+    
 
 
 
